@@ -1,0 +1,169 @@
+{
+  "hero_eyebrow": "EZHOME · KANNUR · KERALA",
+  "hero_title": "A Peaceful Coastal Retreat",
+  "hero_sub": "Welcome to Athithi Homestay — relax to cool sea breezes, savour home-cooked Kerala meals and experience warm hospitality in the serene beauty of North Kerala.",
+  "hero_image": "images/hero.jpg",
+  "about_title": "Escape to Tranquility in Kannur",
+  "about_paragraphs": [
+    {
+      "text": "Nestled in Ezhome on the North Kerala coast, Athithi Homestay is your perfect base to unwind. Set amidst a beautiful garden and lawn, our home offers the ideal mix of comfort, scenic views and genuine local charm for an unforgettable stay."
+    },
+    {
+      "text": "Our homestay features 2 fully air-conditioned bedrooms and 1 comfortable non-A/C room — perfect for families and groups. Relax in the spacious hall, enjoy home-cooked meals in the dining area, and make use of the fully equipped kitchen. Two balconies with scenic views, attached bathrooms and round-the-clock hot water complete the comfort."
+    },
+    {
+      "text": "Known as the \"Land of Looms and Lores\", Kannur welcomes you with pristine beaches, vibrant Theyyam rituals, historic forts and misty hill trails — and we're perfectly placed for nature lovers to enjoy it all."
+    }
+  ],
+  "about_image1": "images/ed-homestay1.jpg",
+  "about_image2": "images/garden.jpg",
+  "rooms": [
+    {
+      "tag": "AIR CONDITIONED",
+      "title": "A/C Bedrooms",
+      "desc": "Two air-conditioned bedrooms with comfortable beds, attached bathrooms and all the essentials for a relaxed stay.",
+      "image": "images/ed-g2.jpg"
+    },
+    {
+      "tag": "FAMILY FRIENDLY",
+      "title": "Non-A/C Room",
+      "desc": "A comfortable, budget-friendly room with natural ventilation — keeping all the comfort and the same warm Athithi hospitality.",
+      "image": "images/g10.jpg"
+    },
+    {
+      "tag": "SHARED SPACE",
+      "title": "Living, Dining & Kitchen",
+      "desc": "Relax in the spacious hall with TV, enjoy meals in the dining area and make use of the fully equipped kitchen.",
+      "image": "images/ed-g3.jpg"
+    }
+  ],
+  "attractions": [
+    {
+      "title": "Muzhappilangad Drive-in Beach",
+      "desc": "Asia's longest drive-in beach — drive on the sand, catch sunrises and go fishing along the serene shoreline.",
+      "image": "images/kial-muzhappilangad.jpg"
+    },
+    {
+      "title": "St. Angelo Fort (Kannur Fort)",
+      "desc": "A historic triangular Portuguese-built seaside fort offering panoramic views of the Arabian Sea and the town.",
+      "image": "images/kial-stangelo.jpg"
+    },
+    {
+      "title": "Paithal Mala",
+      "desc": "A scenic trekking hotspot with dense forests, rich wildlife and stunning hill views on the Kerala–Karnataka border.",
+      "image": "images/kial-paithalmala.jpg"
+    },
+    {
+      "title": "Palakkayam Thattu",
+      "desc": "A misty hill station offering trekking, camping and sweeping panoramas of the Western Ghats.",
+      "image": "images/attr-palakkayam.jpg"
+    },
+    {
+      "title": "Payyambalam Beach",
+      "desc": "A popular Kannur beach with golden sands, coconut groves and gorgeous sunset views over the Arabian Sea.",
+      "image": "images/kial-payyambalam.jpg"
+    },
+    {
+      "title": "Kavvayi Backwaters & Kayaking",
+      "desc": "Kerala's third-largest backwater — glide through serene waters with kayaking and boat savari for nature lovers.",
+      "image": "images/kial-kavvayi.jpg"
+    },
+    {
+      "title": "Ezhimala Beach & Hills",
+      "desc": "The sea curves around three sides of the seven-peaked Ezhimala hills — a striking coastal landscape rich in legend.",
+      "image": "images/kial-ezhimala.jpg"
+    },
+    {
+      "title": "Parassinikadavu Muthappan Temple",
+      "desc": "A famous temple dedicated to Muthappan, renowned for its daily Theyyam performances and calm setting.",
+      "image": "images/attr-muppantheyyam.jpg"
+    },
+    {
+      "title": "Arakkal Museum",
+      "desc": "The heritage home of Kerala's only Muslim royal family, showcasing artefacts of the Arakkal dynasty.",
+      "image": "images/kial-arakkal.jpg"
+    },
+    {
+      "title": "Thalassery Fort",
+      "desc": "One of Kerala's most important former European trading centres — an atmospheric laterite fort with sea views.",
+      "image": "images/kial-thalasseryfort.jpg"
+    },
+    {
+      "title": "Bekal Fort",
+      "desc": "Kerala's largest and best-kept fort, set dramatically on a headland with sweeping Arabian Sea views.",
+      "image": "images/kial-bekal.jpg"
+    },
+    {
+      "title": "Ananthapura Lake Temple",
+      "desc": "The only lake temple in Kerala — a picturesque shrine set in the middle of a serene lake.",
+      "image": "images/kial-ananthapura.jpg"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "Really nice experience — good service, very good atmosphere. Loved it!",
+      "name": "Hari"
+    },
+    {
+      "text": "Spotless, comfortable rooms and a calm, welcoming ambiance. The hospitality was exceptional and every need was taken care of.",
+      "name": "Roshan"
+    },
+    {
+      "text": "Clean, well-maintained and peaceful surroundings with reliable Wi-Fi — an ideal, convenient base for exploring the area.",
+      "name": "Kirthika"
+    }
+  ],
+  "phone": "+91 70255 00164",
+  "email": "prabhakarankc1234@gmail.com",
+  "address": "Athithi Home Stay, Ezhome, Kannur, Kerala – 670303",
+  "gallery": [
+    {
+      "image": "images/hero.jpg",
+      "caption": "Athithi Homestay exterior"
+    },
+    {
+      "image": "images/ed-g1.jpg",
+      "caption": "Homestay front view"
+    },
+    {
+      "image": "images/ed-g2.jpg",
+      "caption": "Bedroom"
+    },
+    {
+      "image": "images/ed-g3.jpg",
+      "caption": "Living room with TV"
+    },
+    {
+      "image": "images/ed-g4.jpg",
+      "caption": "Sofa seating area"
+    },
+    {
+      "image": "images/ed-g5.jpg",
+      "caption": "Kitchen"
+    },
+    {
+      "image": "images/ed-g6.jpg",
+      "caption": "Outdoor sit-out"
+    },
+    {
+      "image": "images/g05.jpg",
+      "caption": "Bedroom with work desk"
+    },
+    {
+      "image": "images/photo16572.jpg",
+      "caption": "Bedroom"
+    },
+    {
+      "image": "images/room1.jpg",
+      "caption": "Living hall"
+    },
+    {
+      "image": "images/living.jpg",
+      "caption": "Kitchen and dining"
+    },
+    {
+      "image": "images/g09.jpg",
+      "caption": "Air-conditioned bedroom"
+    }
+  ]
+}

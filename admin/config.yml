@@ -1,0 +1,93 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# Where uploaded photos are stored in the repo, and the public path to them
+media_folder: "images/uploads"
+public_folder: "images/uploads"
+
+site_url: /
+display_url: /
+publish_mode: simple
+
+collections:
+  # ---------------- SITE CONTENT (single file) ----------------
+  - name: "content"
+    label: "Website Content"
+    files:
+      - name: "site"
+        label: "Main Content"
+        file: "content/site.json"
+        description: "Edit the main text and images across the website."
+        fields:
+          - label: "Hero — small line above title"
+            name: "hero_eyebrow"
+            widget: "string"
+          - label: "Hero — main title"
+            name: "hero_title"
+            widget: "string"
+          - label: "Hero — subtitle"
+            name: "hero_sub"
+            widget: "text"
+          - label: "Hero background image"
+            name: "hero_image"
+            widget: "image"
+            required: false
+
+          - label: "About — heading"
+            name: "about_title"
+            widget: "string"
+          - label: "About — paragraphs"
+            name: "about_paragraphs"
+            widget: "list"
+            field: { label: "Paragraph", name: "text", widget: "text" }
+          - label: "About image (left, large)"
+            name: "about_image1"
+            widget: "image"
+            required: false
+          - label: "About image (right, small)"
+            name: "about_image2"
+            widget: "image"
+            required: false
+
+          - label: "Rooms"
+            name: "rooms"
+            widget: "list"
+            fields:
+              - { label: "Tag", name: "tag", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+              - { label: "Photo", name: "image", widget: "image", required: false }
+
+          - label: "Attractions (Places to Explore)"
+            name: "attractions"
+            widget: "list"
+            fields:
+              - { label: "Name", name: "title", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+              - { label: "Photo", name: "image", widget: "image", required: false }
+
+          - label: "Guest Reviews"
+            name: "reviews"
+            widget: "list"
+            fields:
+              - { label: "Review text", name: "text", widget: "text" }
+              - { label: "Reviewer name", name: "name", widget: "string" }
+
+          - label: "Contact — phone"
+            name: "phone"
+            widget: "string"
+          - label: "Contact — email"
+            name: "email"
+            widget: "string"
+          - label: "Contact — address"
+            name: "address"
+            widget: "string"
+
+          - label: "Gallery Photos"
+            name: "gallery"
+            widget: "list"
+            summary: "{{fields.caption}}"
+            fields:
+              - { label: "Photo", name: "image", widget: "image" }
+              - { label: "Caption", name: "caption", widget: "string", required: false, default: "Athithi Homestay photo" }

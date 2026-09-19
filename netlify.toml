@@ -1,0 +1,12 @@
+# Netlify configuration for Athithi Homestay
+# The site is plain static files — no build step needed.
+
+[build]
+  publish = "."
+  command = ""
+
+# Nice URL for the content manager
+[[redirects]]
+  from = "/admin"
+  to = "/admin/index.html"
+  status = 200

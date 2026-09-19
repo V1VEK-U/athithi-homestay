@@ -1,0 +1,88 @@
+========================================================================
+ ATHITHI HOMESTAY — PUTTING THE SITE ONLINE WITH A LIVE EDITOR (FREE)
+========================================================================
+
+This site now has a built-in Content Manager at the address  /admin
+Once set up, you (the owner) log in there, edit text and photos, click
+Publish, and the LIVE website updates automatically for everyone —
+no downloading or replacing files.
+
+It uses: GitHub (stores the site) + Netlify (hosts it free + login).
+Both are free. Total setup time: about 15 minutes, one time only.
+
+------------------------------------------------------------------------
+WHAT YOU NEED
+------------------------------------------------------------------------
+- An email address
+- A web browser
+(That's it. No coding, no payment.)
+
+------------------------------------------------------------------------
+STEP 1 — Create a free GitHub account & upload the site
+------------------------------------------------------------------------
+1. Go to  https://github.com/join  and make a free account.
+2. Click the "+" (top-right) > "New repository".
+3. Name it, e.g.  athithi-homestay . Keep it Public. Click
+   "Create repository".
+4. On the new repo page click "uploading an existing file".
+5. Open the "athithi-homestay-real" folder on your computer, select ALL
+   files and folders inside it (index.html, style.css, script.js,
+   images/, admin/, content/, netlify.toml, etc.) and drag them into
+   the GitHub upload box.
+6. Wait for them to finish, then click "Commit changes".
+
+------------------------------------------------------------------------
+STEP 2 — Host it on Netlify (free)
+------------------------------------------------------------------------
+1. Go to  https://app.netlify.com/signup  and sign up with your GitHub
+   account (easiest — click "GitHub").
+2. Click "Add new site" > "Import an existing project" > "GitHub".
+3. Authorise Netlify, then pick your  athithi-homestay  repository.
+4. Leave settings as they are (no build command needed) and click
+   "Deploy site".
+5. In ~30 seconds your site is live at a link like
+   https://athithi-homestay.netlify.app
+   (You can rename it in Site settings > Change site name, or add your
+   own domain like athithihomestay.com later.)
+
+------------------------------------------------------------------------
+STEP 3 — Turn on the login for the Content Manager
+------------------------------------------------------------------------
+The editor at /admin needs Netlify's free "Identity" + "Git Gateway":
+
+1. In your site's Netlify dashboard, go to it and open the tab called
+   Identity (newer accounts: Site configuration > Identity) and click
+   "Enable Identity".
+2. Under Identity > Registration preferences, set it to "Invite only"
+   (so only you can log in).
+3. Scroll to Services > Git Gateway and click "Enable Git Gateway".
+4. Go to Identity > "Invite users" and invite YOUR email address.
+5. Check your email, click the invite link, and set your password.
+
+------------------------------------------------------------------------
+STEP 4 — Edit your website anytime
+------------------------------------------------------------------------
+1. Visit  https://YOUR-SITE.netlify.app/admin
+2. Log in with the email + password you just created.
+3. You'll see friendly forms:
+     - "Website Content" — edit hero text, About, Rooms, Attractions,
+        Reviews, Contact details, and the Gallery photos.
+     - Upload/replace any image right in the browser.
+4. Click "Publish". Your live website updates in under a minute.
+
+That's it — no files to download, no uploads, changes are live for
+every visitor.
+
+------------------------------------------------------------------------
+NOTES
+------------------------------------------------------------------------
+- The little "Manage site" link at the very bottom of the website opens
+  the /admin editor. Visitors can click it but cannot log in without
+  your email + password, so your content is safe.
+- If you'd rather have your own domain (athithihomestay.com), buy one
+  (~₹800/year) and add it in Netlify > Domain settings. Ask me and I'll
+  walk you through it.
+- Prefer me to do this for you? I can't create accounts in your name,
+  but if you share a live Netlify site I can guide each click.
+
+Questions? Just ask.
